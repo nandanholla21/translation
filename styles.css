@@ -1,0 +1,40 @@
+:root{
+    --primary-color:rgb(218, 218, 45);
+    --secondary-color:yellow;
+    background-color: grey;
+}
+.header, .footer{
+    padding: 3rem;
+    margin: auto;
+    font-size: 23px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bolder;
+    width: 100%;
+    height: 50px;
+    background-color: var(--primary-color);
+    text-align: center;
+}
+.footer{
+    position: absolute;
+    bottom: 0px;
+    padding-bottom: 1rem;
+}
+.btn-translate,.btn-translate2{
+    margin: 1rem;
+    background-color: var(--secondary-color);
+    width: 140px;
+    height: 50px;
+    border-radius: 0.5rem;
+}
+.output-div{
+    width: 400px;
+    height: 100px;
+    background-color: white;
+    margin:auto;
+}
+
+textarea{
+    width: 400px;
+    height: 100px;
+}
